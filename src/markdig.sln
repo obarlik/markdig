@@ -35,6 +35,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mdtoc", "mdtoc\mdtoc.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecFileGen", "SpecFileGen\SpecFileGen.csproj", "{DB6E2ED5-7884-4E97-84AF-35E2480CF685}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markdig.Core", "Markdig.Core\Markdig.Core.csproj", "{628BD9C2-91BD-46CD-8BC1-323457F1B091}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Markdig.Core.Tests", "Markdig.Core.Tests\Markdig.Core.Tests.csproj", "{BA9C2690-B569-42FE-831A-1669B0029F87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{DB6E2ED5-7884-4E97-84AF-35E2480CF685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB6E2ED5-7884-4E97-84AF-35E2480CF685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB6E2ED5-7884-4E97-84AF-35E2480CF685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628BD9C2-91BD-46CD-8BC1-323457F1B091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628BD9C2-91BD-46CD-8BC1-323457F1B091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628BD9C2-91BD-46CD-8BC1-323457F1B091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628BD9C2-91BD-46CD-8BC1-323457F1B091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA9C2690-B569-42FE-831A-1669B0029F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9C2690-B569-42FE-831A-1669B0029F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9C2690-B569-42FE-831A-1669B0029F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9C2690-B569-42FE-831A-1669B0029F87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
